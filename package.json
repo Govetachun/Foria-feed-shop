@@ -13,6 +13,7 @@
     "firebase": "^9.7.0",
     "next": "latest",
     "next-auth": "^4.3.4",
+    "openssl": "^2.0.0",
     "random-avatar-generator": "^2.0.0",
     "random-picture": "^4.0.6",
     "random-profile-generator": "^2.3.0",

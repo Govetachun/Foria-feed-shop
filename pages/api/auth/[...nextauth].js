@@ -9,7 +9,9 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
     // ...add more providers here
+    
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   theme:{
       logo: "https://links.papareact.com/sq0",
       brandColor: "#F13287",

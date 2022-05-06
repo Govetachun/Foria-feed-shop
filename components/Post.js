@@ -48,7 +48,7 @@ function Post({id,username,userimg,img,caption}) {
 
   const sendComment = async (e) =>{
 
-    e.preventDefault();
+    z.preventDefault();
 
     const commentToSend = comment;
     sendComment("");
