@@ -7,8 +7,8 @@ export default function SignIn({ providers }) {
     <>
     <Headers/>
     <div className='flex flex-col items-center justify-center min-h-screen py-2 -mt-56 px-14 text-center'>
-        <img className='w-80' src='https://links.papareact.com/ocw'></img>
-        <p className='font-xs italic'>This is an FORIA app for SALE</p>
+        <img className='w-80' src='https://foria-85d7d.web.app/static/media/logo.79d55de7463d6ad86be5.png'></img>
+        <p className='font-xs italic'>Welcome to FORIA ecommerce !</p>
     <div className='mt-40'>
     {Object.values(providers).map((provider) => (
         <div key={provider.name}>
