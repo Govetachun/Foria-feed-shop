@@ -17,14 +17,14 @@ function Header() {
         {/* Left */}
         <div onClick={()=> router.push('/')} className='relative hidden lg:inline-grid h-24 w-24 cursor-pointer'>
           <Image 
-          src="https://links.papareact.com/ocw"
+          src="https://foria-85d7d.web.app/static/media/logo.79d55de7463d6ad86be5.png"
           layout='fill'
           objectFit='contain'
           />
         </div>
         <div className='relative w-10 h-10 lg:hidden flex-shrink-0 cursor-pointer mt-4'>
           <Image 
-          src="https://links.papareact.com/jjm"
+          src="https://foria-85d7d.web.app/static/media/logo.79d55de7463d6ad86be5.png"
           layout='fill'
           objectFit='contain'
           />
